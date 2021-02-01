@@ -3,7 +3,7 @@
 </br>
 
 - ## LATEST IMPROVEMENTS 
-&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <i>*Added 1-31-21</i>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>*Added 1-31-21</i>
 
 <b>1)</b> - My unique design of importing environmental variables is now functional.  It still requires an encryption (for at least database role passwords), and some of my JavaScript could potentially better designed.  The key concept is that .env documents on the primary API(s) are left as null values.  Instead the variables are imported from off or on server locations sent in by separate API files.  This allows the API to be completely independent and allows users accessing the API limited access to database login credentials.  As of right now I have a local socket importing these database login variables.
 
