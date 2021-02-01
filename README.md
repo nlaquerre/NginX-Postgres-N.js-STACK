@@ -1,7 +1,8 @@
 # NginX-node.js-PostgreSQL -- STACK
 
 </br>
---LATEST IMPROVEMENTS--
+
+##LATEST IMPROVEMENTS
 1-31-21
 -
 
@@ -11,9 +12,9 @@
 
 3) I include an SQL dump of my test PostgreSQL database.
 
-
 </br>
---TENTATIVE NEXT UPDATES--
+
+##TENTATIVE NEXT UPDATES--
 -
 
 1) I will post some basic static web design material showing the basic login form and accompaning page accessed only by logged in users.
@@ -24,9 +25,9 @@
 
 4) I plan on slightly improving the NginX configuration files to remove the ".html" extensions to the URLs.
 
-
 </br>
---GENERAL SUMMARY OF THIS GIT--
+
+##GENERAL SUMMARY OF THIS GIT--
 -
 
 My first fully successful REST API developement using NginX-controlled static AND Rest API hosting applying SSL encryption; also accompanied by a running but undeveloped PostgreSQL-13 DBMS.
