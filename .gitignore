@@ -68,12 +68,6 @@ typings/
 # Yarn Integrity file
 .yarn-integrity
 
-<<<<<<< Updated upstream
-=======
-# dotenv environment variables file
-#.env
-#.env.test
-
 >>>>>>> Stashed changes
 # parcel-bundler cache (https://parceljs.org/)
 .cache
