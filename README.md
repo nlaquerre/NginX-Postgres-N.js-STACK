@@ -3,7 +3,7 @@
 </br>
 
 - ## LATEST IMPROVEMENTS 
-&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <i>Added on 1-31-21</i>
+&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <i>Added on 1-31-21</i>
 
 </br>
 
