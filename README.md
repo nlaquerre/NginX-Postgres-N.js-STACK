@@ -1,6 +1,6 @@
 # nginxStack1
 
--
+
 --LATEST IMPROVEMENTS--
 1-31-21
 -
@@ -12,7 +12,7 @@
 3) I include an SQL dump of my test PostgreSQL database.
 
 
--
+
 --TENTATIVE NEXT UPDATES--
 -
 
@@ -26,7 +26,7 @@
 
 
 
--
+
 --GENERAL SUMMARY OF THIS GIT--
 -
 
