@@ -2,7 +2,7 @@
 
 </br>
 
-- ## LATEST IMPROVEMENTS 
+- ## LATEST IMPROVEMENTS <br />
 
  ### </tab><i>*Added on 1-31-21 </i>
 
