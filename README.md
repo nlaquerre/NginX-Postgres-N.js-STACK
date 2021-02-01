@@ -7,22 +7,22 @@
 
 <b>1)</b> - My unique design of importing environmental variables is now functional.  It still requires an encryption (for at least database role passwords), and some of my JavaScript could potentially better designed.  The key concept is that .env documents on the primary API(s) are left as null values.  Instead the variables are importorted from off or on server locations sent in by seperate API files.  This allows the API to be completely independant and allows users accessing the API limited access to database login credentials.  As of right now I have a local socket importing these database login variables.
 
-<b>2)</b>  I establish [npm package "pg"]'s pooling function, allowing access to my test PostgreSQL database, while using locally imported variables.
+<b>2)</b> -  I establish [npm package "pg"]'s pooling function, allowing access to my test PostgreSQL database, while using locally imported variables.
 
-<b>3)</b>  I include an SQL dump of my test PostgreSQL database.
+<b>3)</b> -  I include an SQL dump of my test PostgreSQL database.
 
 </br>
 
 - ## TENTATIVE NEXT UPDATES
 
 
-<b>1)</b> I will post some basic static web design material showing the basic login form and accompaning page accessed only by logged in users.
+<b>1)</b> - I will post some basic static web design material showing the basic login form and accompaning page accessed only by logged in users.
 
-<b>2)</b>  My API will seperate the pooling access to the database and the listening file(s). These will include SQL gets and puts allowing registering/logging into user accounts and a soft-encryption between the frontend and API hiding entered passwords from the sight of browser and server users.  I hope to also incorperate this encryption to the imported environmental variables.
+<b>2)</b> -  My API will seperate the pooling access to the database and the listening file(s). These will include SQL gets and puts allowing registering/logging into user accounts and a soft-encryption between the frontend and API hiding entered passwords from the sight of browser and server users.  I hope to also incorperate this encryption to the imported environmental variables.
 
-<b>3)</b> The database will include a more functional user/password table, hopefully including added timestamps created within the API.
+<b>3)</b> - The database will include a more functional user/password table, hopefully including added timestamps created within the API.
 
-<b>4)</b> I plan on slightly improving the NginX configuration files to remove the ".html" extensions to the URLs.
+<b>4)</b> - I plan on slightly improving the NginX configuration files to remove the ".html" extensions to the URLs.
 
 </br>
 
