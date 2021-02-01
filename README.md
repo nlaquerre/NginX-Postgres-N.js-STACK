@@ -30,7 +30,7 @@
 
 </br>
 
-## - GENERAL SUMMARY OF THIS GIT
+- ## GENERAL SUMMARY OF THIS GIT
 
 My first fully successful REST API developement using NginX-controlled static AND Rest API hosting applying SSL encryption; also accompanied by a running but undeveloped PostgreSQL-13 DBMS.
 
