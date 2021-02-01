@@ -11,7 +11,7 @@
 
 <b>3)</b> -  I include an SQL dump of my test PostgreSQL database.
 
-<b> IF ACTIVE YOU CAN ACCESS THIS GIT VIA THE CLIENT'S PERSPECTIVE @ --api-1.nlaquerregis.com-- and --api-1.nlaquerregis.com/all--
+<b> "IF ACTIVE YOU CAN ACCESS THIS GIT VIA THE CLIENT'S PERSPECTIVE @ <api-1.nlaquerregis.com> and <api-1.nlaquerregis.com/all>"</b> 
 
 </br>
 
