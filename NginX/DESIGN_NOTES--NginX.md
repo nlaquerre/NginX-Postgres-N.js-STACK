@@ -6,7 +6,7 @@
 
 <b>3)</b> - There are two templates for all block configuration files.  Static web content and API.  They both use ports 80/443 and are encrypted the exact same way.
 
-&nbsp;&nbsp;&nbsp;<b>a</b>-nlaquerregis.com: This root domain includes [www.] because of configuration of the /etc/hosts file.  As of now this forwards to my older portfolio.
+&nbsp;&nbsp;&nbsp;<b>a</b>-nlaquerregis.com: This root domain includes [www.] by supplement configuration to the /etc/hosts file.  As of now this forwards to my older portfolio.
 
 &nbsp;&nbsp;&nbsp;<b>b</b>-coding.nlaquerregis.com: This acts as my primary development subdomain.
 
