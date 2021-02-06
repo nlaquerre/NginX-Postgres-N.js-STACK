@@ -16,7 +16,5 @@
 
 ## - To Do:
 
-<b>1)</b> - Add code to remove .html and other extensions from urls.
-
-<b>2)</b> - Create and attach better error 500 pages.
+- 
 
