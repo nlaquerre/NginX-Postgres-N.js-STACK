@@ -12,11 +12,18 @@ process.env.db_DATABASE = envVar.db_DATABASE;
 console.log(process.env);
 
 //listen
-httpServer.listen('2222', '127.0.0.1');
+httpServer.listen('3333', '127.0.0.1');
 
 
 app.get("/", (req, res) =>
-    res.send("yo yo yo! This is secured by NginX, the same way I encrypt static web content.  Except now, this msg is created by a node.js file, able to implement dynamic content."));
+    res.send("<h1>Welcome to Nick LaQuerre's encrypted REST API.</h2>\
+    </br> </br> \
+    This is the primary node.js database access portal for my developmental \
+    'NginX-node.js-PostgreSQL -- STACK'\
+    </br > </br > \
+    - Feel free to checkout this web server's design and selected file coding at: \
+    <a href='https://github.com/nlaquerre/NginX_node.js_PostgreSQL--STACK'> Nick's Developement Web Server Github. </a>")
+);
 
 
 
