@@ -8,7 +8,7 @@
 
 &nbsp;&nbsp;&nbsp;<b>a</b>-nlaquerregis.com: This root domain includes [www.] by supplement configuration to the /etc/hosts file.  As of now this forwards to my older portfolio.
 
-&nbsp;&nbsp;&nbsp;<b>b</b>-coding.nlaquerregis.com: This acts as my primary development subdomain.
+&nbsp;&nbsp;&nbsp;<b>b</b>-coding.nlaquerregis.com: This acts as my primary development subdomain.  Note that this blockfile, due to its large number of pages not called "index", includes additional coding within it's "location/{}" sub-block.  The first line of this location sub-block includes an if statement which fixes the need for URL's to include [.html], while also eliminating the address bar from includeing the [.html] extension visually to the user while currently at that page.  This code, along with the 3rd line of the location sub-block defining potential indexes, effectively solves all problems regarding URL disparencies I encountered previously, when typing in these addresses manually.
 
 &nbsp;&nbsp;&nbsp;<b>c</b>-api-1.nlaquerregis.com: This is my primary development REST API subdomain.  It connects to a local ports, establishing it's purpose as a reverse proxy, encrypting all access in and out of my REST API.
 
@@ -16,7 +16,5 @@
 
 ## - To Do:
 
-<b>1)</b> - Add code to remove .html and other extensions from urls.
-
-<b>2)</b> - Create and attach better error 500 pages.
+- 
 

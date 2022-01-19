@@ -3,6 +3,15 @@
 </br>
 
 - ## LATEST IMPROVEMENTS 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>*Added 1-19-22</i>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>An Entire Year Later!!</b>
+<br>
+
+
+The first addition, of what will hopefully be many, relates to incorporating a trigger for each table, all utilizing one central trigger function, creating a 4th table representing a backup/log for what I hope will eventually be the start of a very elaborate and careful backup design ensuring database stability personalizable for any scale!
+<br>
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>*Added 1-31-21</i>
 
 <b>1)</b> - My unique design of importing environmental variables is now functional.  It still requires an encryption (for at least database role passwords), and some of my JavaScript could potentially better designed.  The key concept is that .env documents on the primary API(s) are left as null values.  Instead the variables are imported from off or on server locations sent in by separate API files.  This allows the API to be completely independent and allows users accessing the API limited access to database login credentials.  As of right now I have a local socket importing these database login variables.
