@@ -5,6 +5,15 @@
 - ## LATEST IMPROVEMENTS 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>*Added 1-19-22</i>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>HUGE Display Overhaul/Reorganization!!  Woohoo!</b>
+<br>
+
+Brand New Organization -- New Display Recent Updates Table
+
+For the most part, now this stack includes a final simple, but fully dynamic display table, using front end JavaScript along with my back end Node.js RestAPI, for showing up-to-date form submissions.  This completely revamped repository is now ready to checkout with a much more precise PostgreSQL table schema w/ trigger function, a sample html submissions form from my company's website w/ accompanying giant-messy css file, as well as a completely new organization to my stack.  Enjoy!
+<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>*Added 1-19-22</i>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>An Entire Year Later!!</b>
 <br>
 
