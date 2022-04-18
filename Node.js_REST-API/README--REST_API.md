@@ -1,3 +1,5 @@
 # REST_API
 
-Many notes will be written here for this version.....
+Posting and Getting.  All the power.  Almost zero comprehensive control.
+
+Details to come!
