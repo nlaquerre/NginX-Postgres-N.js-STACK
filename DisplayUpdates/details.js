@@ -1,5 +1,15 @@
 async function createTableFromJSON() {
-    const { rows } = await fetch("https://api-1.nlaquerregis.com/updates/all").then(res => res.json());
+    var linkDataVar = JSON.stringify({"detailsCat": localStorage.getItem("detailsCat"),
+                                      "detailsID": localStorage.getItem("detailsID")});
+    console.log(linkDataVar)
+
+        const { rows } = await fetch("https://api-1.nlaquerregis.com/details/some", {
+        method: "POST",
+        headers: {
+        "Content-Type": "application/json"
+        },
+        body: linkDataVar
+    }).then(res => res.json()); 
     console.count(rows);
     
     var col = [];
@@ -16,28 +26,22 @@ async function createTableFromJSON() {
 
     // CREATE HTML TABLE HEADER ROW USING THE EXTRACTED HEADERS ABOVE.
     var th = table.createTHead(-1);  
-    var row = th.insertRow(-1);                 // TABLE ROW.
+    var thead = th.insertRow(-1);                 // TABLE ROW.
     for (var i = 0; i < col.length; i++) {
-        var tabCell = row.insertCell(-1);
+        var tabCell = thead.insertCell(-1);
         tabCell.innerHTML = ("<b>" + col[i] + "</b>");
     }
 
-    // ADD JSON DATA TO THE TABLE AS ROWS.
-    for (var i = 0; i < rows.length; i++) {
-        tr = table.insertRow(-1);
-        tr.setAttribute("id", "rowTitle_" + i);
-        
-        for (var j = 0; j < col.length; j++) {
-            var tabCell = tr.insertCell(-1);
-            if(j == 1 || j == 3){
-                localStorage.setItem((i + "-" + j + "__rowData"), rows[i][col[j]])
-             }
-            tabCell.innerHTML= "<p1 onClick='clickOnCell(\""+i+"\");'><a href='#'>"+rows[i][col[j]];
-        }
+    // ADD JSON DATA TO THE TABLE AS ROW.
+    tr = table.insertRow(-1);
+    tr.setAttribute("id", "detailsRequest");
+    for (var j = 0; j < col.length; j++) {
+        var tabCell = tr.insertCell(-1);
+        tabCell.innerHTML= rows[0][col[j]];
     }
 
     // FINALLY ADD THE NEWLY CREATED TABLE WITH JSON DATA TO A CONTAINER.
-    var divContainer = document.getElementById("showData");
+    var divContainer = document.getElementById("showDataDetails");
     divContainer.innerHTML = "";
     divContainer.appendChild(table);
 }
@@ -48,8 +52,8 @@ function clickOnCell(row_tag){
     rowData3 = localStorage.getItem(row_tag + "-3__rowData")
     console.log("rowData1 = " + rowData1);
     console.log("rowData3 = " + rowData3);
-    localStorage.setItem("detailsCat", rowData1);
-    localStorage.setItem("detailsID", rowData3);
+    localStorage.setItem("LinkData", rowData1 + "-" + rowData3);
+    console.log(localStorage.getItem("LinkData"));
     window.location.href = "./details.html";
 }
 
