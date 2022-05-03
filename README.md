@@ -5,7 +5,7 @@
 - ## LATEST IMPROVEMENTS 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>*Added 1-19-22</i>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>HUGE Display Overhaul/Reorganization!!  Woohoo!</b>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>HUGE Display Overhaul/Reorganization
 <br>
 
 Brand New Organization -- New Recent Updates Display Table
@@ -14,7 +14,7 @@ For the most part, now this stack includes a final simple, but fully dynamic dis
 <br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>*Added 1-19-22</i>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>An Entire Year Later!!</b>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>An Entire Year Later</b>
 <br>
 
 
