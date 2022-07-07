@@ -2,6 +2,17 @@
 
 </br>
 
+- ## GENERAL SUMMARY OF THIS GIT
+
+My first fully successful REST API development using NginX-controlled static AND Rest API hosting applying SSL encryption; also accompanied by a running but undeveloped PostgreSQL-13 DBMS.
+
+I have a few API's drafted for accessing the database, and plenty of Database/Schema/SQL experience, so my next steps will be developing my skills in html/css/js to create well structured and unique front end web design, while furthering my familiarity when applying JavaScript within this REST API.
+
+I have a private, invite-only Facebook group where you can find may latest tutorial videos. Here the most inexperienced Linux Virtual Server User can learn step-by-step how I've implemented my favorite designs onto my dev server.  To view, just jump to the page and send me a request to join the group!  No awkward formal friend request required! Enjoy!
+<https://www.facebook.com/groups/1039467186512067/learning_content/?filter=647295659489285&post=354356735815111>
+
+<br>
+
 - ## LATEST IMPROVEMENTS 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>*Added 1-19-22</i>
@@ -46,11 +57,3 @@ The first addition, of what will hopefully be many, relates to incorporating a t
 
 </br>
 
-- ## GENERAL SUMMARY OF THIS GIT
-
-My first fully successful REST API development using NginX-controlled static AND Rest API hosting applying SSL encryption; also accompanied by a running but undeveloped PostgreSQL-13 DBMS.
-
-I have a few API's drafted for accessing the database, and plenty of Database/Schema/SQL experience, so my next steps will be developing my skills in html/css/js to create well structured and unique front end web design, while furthering my familiarity when applying JavaScript within this REST API.
-
-I have a private, invite-only Facebook group where you can find may latest tutorial videos. Here the most inexperienced Linux Virtual Server User can learn step-by-step how I've implemented my favorite designs onto my dev server.  To view, just jump to the page and send me a request to join the group!  No awkward formal friend request required! Enjoy!
-<https://www.facebook.com/groups/1039467186512067/learning_content/?filter=647295659489285&post=354356735815111>
